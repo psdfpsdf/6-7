@@ -1,9 +1,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <?php
-  include_once('db_conn.php');
+  include_once('db_conn.php');//01
   include_once('db_func.php');
 
-  if(!isset($v_id))  // 若 URL 中沒有 'v_id' 參數
+  if(!isset($v_id))  // 若 URL 中沒有 'v_id' 參數 
     $v_id = 1;       // 則將 $v_id 的值設為 1
 
   // 取出 votesubject 資料表中指定 (主題) 識別碼的資料
